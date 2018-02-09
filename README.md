@@ -1,4 +1,4 @@
-# FS18-Documents
+# BTI7055: Object-Oriented Programming 2
 
 ## Evaluation
 
@@ -8,7 +8,7 @@
 
 ## Semester Plan
 
-| Day    | Date  | Lecturer       | Topic                  |
+| Day    | Date  | Lecturer(s)    | Topic                  |
 | -------|-------|----------------|------------------------|
 | Monday | 19.2. | A. Scheidegger |                        |
 | Friday | 23.2. | A. Scheidegger |                        |
@@ -42,5 +42,5 @@
 | Friday |  1.6. | R. Haenni      |                        |
 | Monday |  4.6. | R. Haenni      |                        |
 | Friday |  8.6. | R. Haenni      |                        |
-| Monday | 11.6. | Haenni/Scheidegger | Projektpräsentationen  |
+| Monday | 11.6. | R. Haenni, A. Scheidegger | Project presentations  |
 | Friday | 15.6. | R. Haenni      |                        |

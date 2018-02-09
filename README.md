@@ -1,6 +1,12 @@
 # FS18-Documents
 
-# Semester Plan
+## Evaluation
+
+* Project: 20%
+* Presentation: 5%
+* Exam: 75%
+
+## Semester Plan
 
 | Day    | Date  | Lecturer       | Topic                  |
 | -------|-------|----------------|------------------------|
@@ -38,9 +44,3 @@
 | Friday |  8.6. | R. Haenni      |                        |
 | Monday | 11.6. | R. Haenni      | Projektpräsentationen  |
 | Friday | 15.6. | R. Haenni      |                        |
-
-# Evaluation
-
-* Project: 20%
-* Presentation: 5%
-* Exam: 75%

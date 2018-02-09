@@ -27,8 +27,8 @@
 | Monday |  9.4. | A. Scheidegger |                        |
 | Friday | 13.4. | A. Scheidegger |                        |
 | Monday | 16.4. | A. Scheidegger |                        |
-| Friday | 20.4. | R. Haenni      |                        |
-| Monday | 23.4. | R. Haenni      |                        |
+| Friday | 20.4. | R. Haenni      | Project start          |
+| Monday | 23.4. | R. Haenni      |                        |
 | Friday | 27.4. | R. Haenni      |                        |
 | Monday | 30.4. | R. Haenni      |                        |
 | Friday |  4.5. | R. Haenni      |                        |

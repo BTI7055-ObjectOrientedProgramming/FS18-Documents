@@ -1,0 +1,6 @@
+package application;
+
+
+public enum MaritalStatus {
+	SINGLE, MARRIED, CIVIL_PARTNERSHIP, DIVORCED, WIDOWED
+}

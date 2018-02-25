@@ -2,14 +2,14 @@ package application;
 	
 import java.util.List;
 
-import io.PersonDAO;
-import io.SerializingPersonDao;
-import io.TextFilePersonDAO;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import model.Person;
+import persistence.PersonDAO;
+import persistence.serialized.SerializingPersonDao;
+import persistence.textfile.TextFilePersonDAO;
 
 
 public final class Main extends Application {

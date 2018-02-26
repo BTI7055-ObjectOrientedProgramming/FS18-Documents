@@ -1,10 +1,13 @@
 package persistence.textfile;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -23,7 +26,8 @@ public class TextFilePersonDAO implements PersonDAO {
 	public void save(List<Person> persons) {
 		PrintWriter out = null;
 		try {
-			out = new PrintWriter(new FileWriter(path));
+//			out = new PrintWriter(new FileWriter(path));  // Use platform standard encoding -> dangerous!
+			out = new PrintWriter(new OutputStreamWriter(new FileOutputStream(path), Charset.forName("UTF-8")));
 			for (Person p : persons)
 				out.println(p.toString());
 		} catch (IOException e) {
@@ -39,7 +43,8 @@ public class TextFilePersonDAO implements PersonDAO {
 		ArrayList<Person> persons = new ArrayList<>();
 		Scanner in = null;
 		try {
-			in = new Scanner(new FileReader(path));
+//			in = new Scanner(new FileReader(path));    // Use platform standard encoding -> dangerous!
+			in = new Scanner(new File(path), "UTF-8");
 			while (in.hasNext()) {
 				String line = in.nextLine();
 				Person person = new Person(line);

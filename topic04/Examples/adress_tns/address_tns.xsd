@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Address schema with default namespace for AddressSchema -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified"
+	targetNamespace="http://www.bfh.ch/AddressSchema"
+	xmlns="http://www.bfh.ch/AddressSchema">
+
+	<xsd:complexType name="address_type">
+		<xsd:sequence>
+			<xsd:element name="firstname" type="xsd:string" />
+			<xsd:element name="name" type="xsd:string" />
+			<xsd:element name="title" type="xsd:string" />
+			<xsd:element name="street" type="xsd:string" />
+			<xsd:element name="number" type="xsd:integer" />
+			<xsd:element name="apt-number" type="xsd:string" />
+			<xsd:element name="city" type="xsd:string" />
+			<xsd:element name="zip" type="xsd:integer" />
+			<xsd:element name="country" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element name="address" type="address_type" />
+</xsd:schema>

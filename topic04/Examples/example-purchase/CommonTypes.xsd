@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://NamespaceTest.com/CommonTypes"
+	elementFormDefault="qualified">
+
+	<xsd:complexType name="AddressType">
+		<xsd:sequence>
+			<xsd:element name="Line1" type="xsd:string" />
+			<xsd:element name="Line2" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:simpleType name="PriceType">
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="PaymentMethodType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="VISA" />
+			<xsd:enumeration value="MasterCard" />
+			<xsd:enumeration value="Cash" />
+			<xsd:enumeration value="Amex" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+</xsd:schema>

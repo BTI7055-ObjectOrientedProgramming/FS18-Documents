@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bankAccount accountType="savings">
+	<iban>CH28 0079 0042 1234 1234 5</iban>
+	<customer>
+		<name>Simpson</name>
+		<firstname>Homer</firstname>
+		<address>
+			<street>742 Evergreen Terrace</street>
+			<city>Springfield</city>
+			<state>NY</state>
+			<country>USA</country>
+		</address>
+	</customer>
+	<balance currency="USD">1.00</balance>
+	<interestRate>0.1%</interestRate>
+	<nbOfTransactions>13</nbOfTransactions>
+</bankAccount>

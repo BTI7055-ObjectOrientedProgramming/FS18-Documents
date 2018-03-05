@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Defining simple types -->
+	<xsd:simpleType name="starsType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="*"></xsd:enumeration>
+			<xsd:enumeration value="**"></xsd:enumeration>
+			<xsd:enumeration value="***"></xsd:enumeration>
+			<xsd:enumeration value="****"></xsd:enumeration>
+			<xsd:enumeration value="*****"></xsd:enumeration>
+			<!-- alternative:
+			<xsd:pattern value="\*{1,5}"/>
+			-->
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="roomType">
+		<xsd:restriction base="xsd:integer">
+			<xsd:minInclusive value="0" />
+			<xsd:maxInclusive value="10000" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Defining complex types -->
+	<xsd:complexType name="hotelType">
+		<xsd:sequence>
+			<xsd:element name="single-room" type="roomType" />
+			<xsd:element name="double-room" type="roomType" />
+			<xsd:element name="suite" type="roomType" />
+			<xsd:element name="lounge" type="xsd:string" fixed="" minOccurs="0" maxOccurs="1" />
+		</xsd:sequence>
+		<xsd:attribute name="stars" type="starsType" default="***" />
+	</xsd:complexType>
+
+	<!-- Declare the root element -->
+	<xsd:element name="hotel" type="hotelType" />
+</xsd:schema>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://NamespaceTest.com/CustomerTypes" xmlns:cmn="http://NamespaceTest.com/CommonTypes"
+	elementFormDefault="qualified">
+
+	<xsd:import schemaLocation="CommonTypes.xsd"
+		namespace="http://NamespaceTest.com/CommonTypes" />
+
+	<xsd:complexType name="CustomerType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string" />
+			<xsd:element name="DeliveryAddress" type="cmn:AddressType" />
+			<xsd:element name="BillingAddress" type="cmn:AddressType" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

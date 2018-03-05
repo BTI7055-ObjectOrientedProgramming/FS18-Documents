@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- address schema without namespaces-->
+<address 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="./address.xsd">
+	<firstname>John</firstname>
+	<name>Smith</name>
+	<title>Master of Arts</title>
+	<street>45th Avenue</street>
+	<number>12</number>
+	<apt-number>15</apt-number>
+	<city>New York</city>
+	<zip>10003</zip>
+	<country>USA</country>
+</address>

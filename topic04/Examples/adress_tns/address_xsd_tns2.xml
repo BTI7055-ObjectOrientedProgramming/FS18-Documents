@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Address xml with prefixed namespace -->
+<adr:address xmlns:adr="http://www.bfh.ch/AddressSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.bfh.ch/AddressSchema
+                       ./address_tns.xsd">
+	<adr:firstname>John</adr:firstname>
+	<adr:name>Smith</adr:name>
+	<adr:title>Master of Arts</adr:title>
+	<adr:street>45th Avenue</adr:street>
+	<adr:number>12</adr:number>
+	<adr:apt-number>15</adr:apt-number>
+	<adr:city>New York</adr:city>
+	<adr:zip>10003</adr:zip>
+	<adr:country>USA</adr:country>
+</adr:address>

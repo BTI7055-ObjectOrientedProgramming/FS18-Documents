@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Persons xmlns:ns2="https://github.com/BTI7055-ObjectOrientedProgramming/FS18-Documents/topic04" version="FS2018">
+    <Person>
+        <lastname>Duck</lastname>
+        <firstname>Donald</firstname>
+        <birthdate>1920-04-13+01:00</birthdate>
+        <maritalStatus>SINGLE</maritalStatus>
+    </Person>
+    <Person>
+        <lastname>Dalton</lastname>
+        <firstname>Ma</firstname>
+        <birthdate>1958-01-01+01:00</birthdate>
+        <maritalStatus>WIDOWED</maritalStatus>
+    </Person>
+</ns2:Persons>

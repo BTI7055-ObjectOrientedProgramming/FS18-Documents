@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Persons>
+	<Person>
+		<Name>Duck</Name>
+		<Firstname>Donald</Firstname>
+		<Birthdate>1920-04-13</Birthdate>
+		<Maritalstatus>SINGLE</Maritalstatus>
+	</Person>
+	<Person>
+		<Name>Luke</Name>
+		<Firstname>Lucky</Firstname>
+		<Birthdate>1946-11-14</Birthdate>
+		<Maritalstatus>SINGLE</Maritalstatus>
+	</Person>
+	<Person>
+		<Name>Dalton</Name>
+		<Firstname>Ma</Firstname>
+		<Birthdate>1958-01-01</Birthdate>
+		<Maritalstatus>WIDOWED</Maritalstatus>
+	</Person>
+</Persons>

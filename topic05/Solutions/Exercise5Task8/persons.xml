@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Persons ns1:version="FS2018" xsi:schemaLocation="https://github.com/BTI7055-ObjectOrientedProgramming/FS18-Documents/topic04 Schema/Persons.xsd" xmlns:ns1="https://github.com/BTI7055-ObjectOrientedProgramming/FS18-Documents/topic04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns1:Person>
+        <ns1:Name>Duck</ns1:Name>
+        <ns1:Firstname>Donald</ns1:Firstname>
+        <ns1:Birthdate>1920-04-13</ns1:Birthdate>
+        <ns1:Maritalstatus>SINGLE</ns1:Maritalstatus>
+    </ns1:Person>
+    <ns1:Person>
+        <ns1:Name>Luke</ns1:Name>
+        <ns1:Firstname>Lucky</ns1:Firstname>
+        <ns1:Birthdate>1946-11-14</ns1:Birthdate>
+        <ns1:Maritalstatus>SINGLE</ns1:Maritalstatus>
+    </ns1:Person>
+    <ns1:Person>
+        <ns1:Name>Dalton</ns1:Name>
+        <ns1:Firstname>Ma</ns1:Firstname>
+        <ns1:Birthdate>1958-01-01</ns1:Birthdate>
+        <ns1:Maritalstatus>WIDOWED</ns1:Maritalstatus>
+    </ns1:Person>
+</ns1:Persons>

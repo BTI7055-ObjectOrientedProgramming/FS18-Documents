@@ -24,9 +24,9 @@
 | Friday | 30.3. |                | UF-Zeit (Karfreitag)   |
 | Monday |  2.4. |                | UF-Zeit (Ostermontag)  |
 | Friday |  6.4. | A. Scheidegger | 6: FXML, SceneBuilder  |
-| Monday |  9.4. | A. Scheidegger | 6: MVC, Observer, I18N |
-| Friday | 13.4. | A. Scheidegger |                        |
-| Monday | 16.4. | A. Scheidegger | 7: Rekursion           |
+| Monday |  9.4. | A. Scheidegger | 6: MVC, Observer       |
+| Friday | 13.4. | A. Scheidegger | 7: I18N                |
+| Monday | 16.4. | A. Scheidegger | 7: I18N + 8: Rekursion |
 | Friday | 20.4. | R. Haenni      | Project start          |
 | Monday | 23.4. | R. Haenni      |                        |
 | Friday | 27.4. | R. Haenni      |                        |

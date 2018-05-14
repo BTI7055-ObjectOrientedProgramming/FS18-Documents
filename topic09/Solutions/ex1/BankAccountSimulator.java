@@ -23,7 +23,11 @@ public class BankAccountSimulator {
 					do {
 						i2 = random.nextInt(n);
 					} while (i1 == i2);
-					bankAccounts.get(i1).randomTransfer2(bankAccounts.get(i2));
+					bankAccounts.get(i1).randomTransfer1(bankAccounts.get(i2));
+//					bankAccounts.get(i1).randomTransfer2(bankAccounts.get(i2));
+//					bankAccounts.get(i1).randomTransfer3(bankAccounts.get(i2));
+//					bankAccounts.get(i1).randomTransfer4(bankAccounts.get(i2));
+//					bankAccounts.get(i1).randomTransfer5(bankAccounts.get(i2));
 				}
 			})).limit(m).collect(Collectors.toList());
 		

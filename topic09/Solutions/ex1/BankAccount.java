@@ -49,6 +49,17 @@ public class BankAccount {
 	}
 
 	public void randomTransfer4(BankAccount other) {
+		int amount;
+		synchronized (this) {
+			amount = random.nextInt(this.balance + 1);
+			this.withdraw(amount);
+		}
+		synchronized (other) {
+			other.deposit(amount);
+		}
+	}
+
+	public void randomTransfer5(BankAccount other) {
 		lock.lock();
 		int amount = random.nextInt(this.balance + 1);
 		this.withdraw(amount);

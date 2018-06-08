@@ -42,5 +42,5 @@
 | Friday |  1.6. | R. Haenni      |                        |
 | Monday |  4.6. | R. Haenni      |                        |
 | Friday |  8.6. | R. Haenni      |                        |
-| Monday | 11.6. | R. Haenni, A. Scheidegger | Project presentations  |
-| Friday | 15.6. | R. Haenni      |                        |
+| Monday | 11.6. | R. Haenni      |                        |
+| Friday | 15.6. | R. Haenni, A. Scheidegger | Project presentations  |
